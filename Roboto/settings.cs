@@ -128,8 +128,8 @@ namespace Roboto
 
 
             if (telegramAPIURL == null) {telegramAPIURL = "https://api.telegram.org/bot";};
-            if (telegramAPIKey == null) { telegramAPIKey = "ENTERYOURAPIKEYHERE"; };
-            if (botUserName == "") { botUserName = "Roboto_bot_name"; }
+            if (telegramAPIKey == null) { telegramAPIKey = "API-Key"; };
+            if (botUserName == "") { botUserName = "HAC_bot"; }
 
             Console.WriteLine("=========");
             Console.WriteLine("All Plugins initialised");
